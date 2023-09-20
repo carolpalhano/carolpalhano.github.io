@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    background: rgb(93,102,150);
+    background: linear-gradient(180deg, rgba(93,102,150,1) 0%, rgba(81,82,89,1) 100%);
+    color: white;
+    
+}
+
+.avatar{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+
+}
+
+html{
+    height: 100%;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 5px ;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.perfil {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.icons img{
+    width: 33px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+margin: 10px 20px;
+}
+
+.redes{
+    list-style: none;
+}
+
+.redes li{
+margin: 10px 20px;
+}
+
+.list li a {
+    display: block;
+    
+    background-color: whitesmoke;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(93,102,150);
+    box-shadow: 0 0 10px white;
+    font-weight: bold;
+   
+}
+
+.list li a span{
+    color: grey;
+    display: block;
+    margin-top: 5px;
+}
+
+.redes li a {
+    display: block;
+    background-color: whitesmoke;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(93,102,150);
+    box-shadow: 0 0 10px white;
+    font-weight: bold;
+
+}
+
+.redes li a span{
+    color: rgb(99, 41, 48);
+    display: block;
+    margin-top: 5px;
+   
+    
+}
